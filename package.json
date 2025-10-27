@@ -1,0 +1,30 @@
+{
+  "name": "groshare-backend",
+  "version": "1.0.0",
+  "description": "Backend API for GroShare – a collaborative grocery list web app for households built with Node.js, Express, and TypeScript.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "nodejs",
+    "api",
+    "groshare",
+    "backend"
+  ],
+  "author": "Farhan Hanif",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
